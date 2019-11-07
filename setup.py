@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md","r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["pandas>=0.24"]
+requirements = ["pandas>=0.24","tqdm>=4","SQLAlchemy>=1.3"]
 
 setup(
     name="bulketl",
